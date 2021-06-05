@@ -3,9 +3,10 @@ from art import logo
 from game_functions import *
 import random
 
-print(logo)
 
 # Prereqs
+print(logo)
+
 random_a = random.randint(0,50)
 random_b = get_random_b(random_a)
 
